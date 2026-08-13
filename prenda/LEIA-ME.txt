@@ -1,0 +1,10 @@
+COMO EDITAR O SITE
+
+1. Abre o ficheiro index.html num editor de texto.
+2. Procura [NOME DELA], [O TEU NOME] e os textos entre [ ].
+3. Para adicionar fotografias, podes substituir cada caixa "COLOCA AQUI UMA FOTO" por:
+   <img src="nome-da-foto.jpg" alt="Nós">
+4. Guarda tudo na mesma pasta.
+5. Abre index.html no navegador para ver o resultado.
+
+Se quiseres publicar o site online, podes usar um serviço de alojamento de sites estáticos.
