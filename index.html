@@ -50,6 +50,29 @@ footer{text-align:center;padding:30px;color:#9e8798}
     color:#35152d;
     transform:scale(1.05);
 }
+.surprise-btn{
+    margin-top:20px;
+    padding:15px 26px;
+    border:1px solid #ffffff55;
+    border-radius:999px;
+    background:#ffffff15;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.surprise-btn:hover{
+    background:#fff;
+    color:#35152d;
+    transform:scale(1.05);
+}
+
+.last-surprise{
+    padding-top:40px;
+    padding-bottom:80px;
+}
 </style>
 </head>
 <body>
@@ -153,7 +176,47 @@ footer{text-align:center;padding:30px;color:#9e8798}
     <p>Com muito amor,<br><strong>o teu drigo</strong></p>
   </div>
 </section>
+<section class="last-surprise">
+  <div class="message center">
+    <h2>Ainda não acabou... ❤️</h2>
+    <p>Tenho mais uma coisinha para te dizer.</p>
 
+    <button class="surprise-btn" onclick="document.getElementById('final-message').style.display='block'; this.style.display='none';">
+      Abrir a última surpresa ❤️
+    </button>
+
+    <div id="final-message" style="display:none; margin-top:30px;">
+      <p>
+        Eu sei que isto pode parecer uma coisa simples, mas fiz este site
+        com muito carinho porque queria que tivesses algo meu contigo neste dia.
+      </p>
+
+      <p>
+        Cada foto, cada palavra e cada detalhe foi pensado em ti. ❤️
+      </p>
+
+      <p>
+        Nem sempre consigo dizer tudo aquilo que sinto, mas espero que saibas
+        o quanto és importante para mim e o quanto gosto de todos os momentos
+        que passamos juntos.
+        É contigo que quero passar todos os meus dias, é o teu bom dia que faz com que acorde bem disposto todos os dias.
+        Sei que muitas vezes não sou o namorado perfeito, mas estou aqui para te ajudar e apoiar todos os dias, quero que 
+        sinta que eu posso ser o teu porto seguro hoje e sempre.
+      </p>
+
+      <p>
+        Espero que este seja apenas um de muitos aniversários que vou
+        poder celebrar contigo.
+        Sei que nada apaga o facto de não poder estar presente, mas espero que 
+        esta pequena prenda tenha tornado o teu dia bastante especial.
+        Posso não estar aí presencialmente, mas estou aí no teu coração e tens o meu cheiro no teu peluche ahaha.
+      </p>
+
+      <h2>Feliz aniversário, meu amor. ❤️</h2>
+      <p><strong>Agora sim... acabou a surpresa. 🫶</strong></p>
+    </div>
+  </div>
+</section>
 <footer>Feito especialmente para ti ❤️</footer>
 
 </body>
